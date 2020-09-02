@@ -1,0 +1,92 @@
+nav{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:@nav-bg;    		
+
+
+    a{
+        width: 60%;
+        font-size: 0.7rem;
+        padding:1%;
+        color: white;
+        text-decoration: none;
+        
+    }
+        @media @phone {
+            a:nth-child(2){
+            display: none;
+            }
+        }
+        @media @phone {
+                a:nth-child(3){
+                display: none;
+            }
+        }
+        @media @phone {
+                a:nth-child(4){
+                display: none;
+            }
+        }
+        @media @phone {
+                a:nth-child(5){
+                display: none;
+            }
+        }
+        @media @phone {
+                a:nth-child(6){
+                display: none;
+            }
+        }
+        @media @phone {
+                a:nth-child(7){
+                display: none;
+            }
+        }
+        @media @phone {
+                a:nth-child(8){
+                display: none;
+            }
+    }
+    .buttn{
+        display:box;
+        width:170%;
+        height: 3.5vh;
+        margin:0 1% 0 -1%; 
+        padding-right:1%;
+        border-radius: 5px;
+        background-color:@nav-buttn-bg;
+        font-size:0.56rem;
+    } 
+        @media @phone {
+            .buttn{
+            width:50%;
+        }
+    }
+
+}
+
+nav a:nth-child(1){
+    padding-top:2%;
+    margin-top:2.5%;
+}
+
+
+nav a:nth-child(7){
+    padding-left:5%;
+}
+
+input {
+    width:160%;
+    margin-right:2%;
+    padding:0.2%;
+    border-radius: 5px;
+  }
+  @media @phone {
+    input{
+      display: none;
+}
+}
+
+
+

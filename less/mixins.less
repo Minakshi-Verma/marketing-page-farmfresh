@@ -1,0 +1,32 @@
+
+// ----mixins--------
+.input-style{
+    position:absolute;
+    height:3.99vh;
+    border-radius:8px 0px 0px 8px;
+    border-width: 0;
+    background: @pearl-white;
+}
+
+
+.button-style{
+    display:box;
+    width: 20%;
+    height:3.99vh;
+    margin-left:45%;
+    font-family: Maven Pro;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 0.8rem;
+    background: @title-bn-bg;
+    border-radius: 0px 8px 8px 0px;
+    padding-left:3%;
+    border-width: 0;
+}
+
+// -----parametric mixin---------
+
+.custom-layout(@justify){
+    display:flex;
+    justify-content:@justify;
+}

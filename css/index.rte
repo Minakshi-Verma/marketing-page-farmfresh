@@ -1,0 +1,382 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+/* 
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+/* article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+} */
+
+/* Set every element's box-sizing to border-box */
+/* * {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Titillium Web', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Bangers', cursive;
+    letter-spacing: 1px;
+    margin-bottom: 15px;
+} */
+
+/* project CSS startes here */
+
+/* .container{
+	max-width: 80%;
+	/* max-height:auto; */
+    /* margin: 3% auto;
+    border: 2px solid rgb(0, 174, 255);  
+} */
+
+/* nav styling starts here */
+/* nav{
+	display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1F2A4C;
+    		
+}
+
+nav a{
+    width: 100%;
+    font-size: 0.8rem;
+    padding:2%;
+    color: white;
+	text-decoration: none;
+    
+}
+@media (max-width:500px) {
+    a:nth-child(2){
+      display: none;
+    }
+@media (max-width:500px) {
+        a:nth-child(3){
+          display: none;
+    }
+@media (max-width:500px) {
+        a:nth-child(4){
+          display: none;
+    }
+@media (max-width:500px) {
+        a:nth-child(5){
+          display: none;
+    }
+@media (max-width:500px) {
+        a:nth-child(6){
+          display: none;
+    }
+@media (max-width:500px) {
+        a:nth-child(7){
+          display: none;
+    }
+@media (max-width:500px) {
+        a:nth-child(8){
+          display: none;
+    }
+
+
+nav a:nth-child(1){
+    padding-top:2%;
+    margin-top:2.5%;
+}
+
+input {
+    margin-right:2%;
+    padding:0.2%;
+    border-radius: 5px;
+  }
+
+@media (max-width:500px) {
+    a:nth-child(3){
+      display: none;
+}
+
+  nav .buttn{
+    display:box;
+    width:220%;
+    height: 3.5vh;
+    margin:0 1% 0 -3%; 
+    padding-right:1%;
+    border-radius: 5px;
+    background-color:#7FAECC;
+} 
+
+ 
+
+.basketlogo{
+    width:3%;
+    margin:1% 0 -7% 2.8%;
+    
+}
+
+.cartlogo{
+height:5vh;
+
+}
+
+.logo{
+    width:50%;
+    height: 10vh;
+    margin-left:25%;
+
+} */ */
+/* headercover styling starts here */
+/* .top-header .cover{
+    width: 100%;
+    height: 55vh;
+    background-image: url("../img/vegetables.jpeg");
+    background-size: cover; 
+    margin-bottom: 6%;
+     
+}
+
+.title{
+    margin: -27% 0 0 27%;
+    width:50%;
+}
+
+
+
+.title button{
+display:box;
+width: 25%;
+height:4.2vh;
+margin-left:33%;
+font-family: Maven Pro;
+font-style: normal;
+font-weight: bold;
+font-size: 0.8rem;
+line-height: 24px;
+background: #F46032;
+border-radius: 0px 8px 8px 0px */
+/* identical to box height, or 150% */
+
+/* display: flex;
+align-items: center;
+text-align: center;
+
+color: #FFFFFF; */
+}
+
+.title input{
+    position: absolute;
+    /* width: 235px;
+    height: 48px;
+    right: 196px;
+    top: 0px; */
+    
+    /* background: #F0F0F0;
+    /* border-radius: 8px 0px 0px 8px; */
+  /* } */ */
+  
+
+
+h1{
+    font-size: 2.8rem;
+    font-family: 'Roboto Slab', serif;
+    color: rgba(29, 24, 24, 0.877);
+    
+}
+h2{
+    font-size: 2.5rem;
+    font-family: 'Roboto Slab', serif;
+    line-height:1.1em;
+
+}
+h3{
+    font-size: 1.2rem;
+     margin-top:10%;
+     font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+h4{
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: bold;
+}
+
+.title p{
+    line-height:1.5em;
+    font-weight: 500;
+    color:  rgba(8, 8, 8, 0.877);
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+}
+.bold{
+  
+    font-weight:550;
+    
+} */
+
+  
+/* .button{
+    box-sizing: border-box;
+	width: 15%;
+    padding: 2.0%;
+    margin: -17% 0 0 10%
+}  */
+    
+  /* top-section styling starts here */
+/* .top-section{
+         display: flex;
+         justify-content:space-evenly;
+         margin-top:10%
+ }
+ .top-section div{
+     width: 50%;
+     margin: 1%;  
+     line-height:1.5em;  
+}
+
+.top-section img{
+         width:30%;
+         height: 30vh;
+
+} */
+/* middle-section styling starts here */
+/* .middle-section{
+    display: flex;
+    justify-content:space-between;
+    flex-wrap: nowrap;
+    margin:4%
+} */
+/* @media (max-width:500px) {
+    .middle-section{
+      flex-direction:column;
+    } */
+/* 
+.middle-section div{
+    width:23%;
+    margin:1%;
+    padding:3%;
+    background-color: #D8E7ED;
+    line-height:1.5em;
+} */
+
+/* ------feedback-box styling starts here */
+/* .feedback-box{
+    width: 80%;
+    height: 45Vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5% 4% 10%;
+    background: #F1F3F6;
+    box-shadow: 30px 30px 80px rgba(55, 84, 170, 0.1), -30px -30px 80px #FFFFFF, inset 4px 4px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+}   
+
+.feedback-box .image1{
+    width:15%;
+    margin:15% 0 30% 35%;
+}
+
+.feedback-box .image2{
+    width: 20%;
+    margin: 0 0 10% 20%;
+
+}
+
+.feedback-box .text-box{
+    width: 75%;
+    margin: 10% 30% 0 0;
+    line-height:1.3em;
+    font-family: Fira Sans;
+    font-style: normal;
+    font-weight: normal;
+    
+}
+
+/* --bottom-box styling starts here */
+.bottom-box-cover{
+    width: 100%;
+    height: 55vh;
+    background-image: url("../img/blackberries.jpg");
+    background-size:cover;
+    background-position: center;
+    /* background-repeat: no-repeat; */
+    margin:auto;
+      
+} */
+/* .bottom-box-text{
+    margin: -23% 0 0 28%;
+    width:50%;
+
+}
+.bottom-box-text h2{
+    color:white;
+    margin-left: 12%;
+}
+.bottom-box-text p{
+    color:rgb(83, 241, 234);
+    line-height:1.4em;
+}
+.list-box{
+    display:flex;
+    justify-content: space-between;
+    margin: 10%; 
+    line-height:1.5em;
+    
+} */
+/* footer styling starts here */
+/* #footer-nav{
+   
+    width: 100%;
+    background-color: white;
+    color: black;   
+
+} 
+#footer-nav a{
+    color: black;
+    width: 1.5%;
+    color: rgba(43, 41, 45, 0.6);   
+}
+
+#footer-nav img{
+    width:2%;    
+} */

@@ -1,0 +1,396 @@
+
+
+.container{
+	max-width: 80%;
+	margin: 3% auto;
+    border: 2px solid rgb(0, 174, 255);  
+}
+.basketlogo{
+    width:3%;
+    margin:1% 0 -7% 2.8%;
+    
+}
+
+.cartlogo{
+height:4vh;
+
+}
+
+.logo{
+    width:40;
+    height: 7vh;
+    margin-left:25%;
+
+}
+    @media @phone {
+    .logo{
+    width:14%;
+    height: 6vh;
+    margin-left:11%;
+    }
+}
+
+.title{
+    background-image: url("../img/Hero\ image.jpg");
+    background-size: cover;
+    height: 55vh;
+    .input-div{
+        .custom-layout(flex-start);
+    }
+
+        button{
+        .button-style()        
+        }
+        @media @phone {
+            button{
+            width:35%;
+            padding-left:4%;
+            margin-left:50%; 
+            border-radius: 0px 8px 8px 8px; 
+           
+            }
+        }
+
+        input{
+            width:18%;
+            margin-left:20%;
+            .input-style()            
+          }
+        @media @phone {
+            input{
+            display:block; 
+            width: 28%;
+            padding:0.6%; 
+            margin-left:16%;   
+            // width:35%;
+            }
+        }
+        h1{
+            width:100%;
+            padding:8.5% 7% 2% 7%;
+            font-size: 2.6rem;
+        }
+        @media @phone {
+            h1{
+            font-size:2.12rem;
+            text-align:center;
+            line-height:1.1em;
+            padding-top:15%;
+            }
+        }
+
+        p{
+            width:55%;
+            font-size: 1.099rem;
+            line-height:1.3em;
+            
+            
+            color:  rgba(8, 8, 8, 0.877);
+            font-family: Fira Sans;
+            font-style: normal;
+            font-weight: normal;
+            color:white;
+            padding:0 13% 2.8% 17%;
+        }
+        @media @phone {
+            p{
+    
+            font-size:0.9rem;
+            line-height:1.2em;
+            padding-left:4% 4.5% 1.5% 1.5%;
+            }
+        }
+          
+
+}
+
+  /* top-section styling starts here */
+
+.top-section{
+    display: flex;
+    justify-content:space-evenly;
+    margin-top:9%;
+
+    img{
+        width:40%;
+        height: 38vh;
+        padding-right:4%;
+    
+    }
+    
+    @media @phone {
+        img{
+            display:none;
+        }
+    }
+
+    .top-section-parent{
+        width:40%;
+    
+            @media @phone {
+                .top-section-pseudo{
+                width: 100%;
+                height: 35vh;
+                background-image: url("../img/pic.png ");
+                background-size: 100%; 
+                background-repeat: no-repeat;
+                padding:1% 3% 4% 0;
+                margin:0 auto;
+                }
+            }
+        
+        
+        .top-section-paragf p{
+         line-height: 1.3em;
+         padding-top:4%;
+         margin-top:3%;
+        }
+        @media @phone {
+            .top-section-paragf p{
+            font-size: 0.85rem;
+                
+            }
+        }
+    }
+           
+        @media @phone {
+            .top-section-parent{
+            width:86%
+            }
+        }
+    
+ }
+
+/* middle-section styling starts here */
+.main-middle-section{
+    background-image: url("../img/Dark accent background.png");
+    background-size: 100%; 
+    background-repeat: no-repeat;
+    padding-top:2%;
+    text-align:center;
+    margin-top:6%;
+
+    h2{
+        color:white;
+        font-family: 'Roboto Slab', serif;
+    }
+    @media @phone {
+        h2{
+        margin-top:2%;
+        
+        }
+    }
+
+}
+
+.middle-section{
+    .custom-layout(space-between);
+    flex-wrap: nowrap;
+    margin:1%;
+
+    div{
+        width:23%;
+        margin:1% 0.5% 1% 0.5%;
+        padding:2% 2% 2% 2%;
+        background-color: @midsecttion-div-bg;
+        line-height:1.2em;
+        border-radius: 5px;
+    }
+    @media @phone {
+        div{
+        width:70%;
+        margin:2.5% auto;
+        padding: 6% 12% 12% 10%;
+        }
+    }
+    
+    @media @phone {
+        div:nth-child(1){
+        margin:12% 4% 5% auto;
+        padding: 6% 10% 12% 12%;
+        }
+    }
+    @media @phone {
+        div:nth-child(2){
+        margin:0 4% 2% auto;
+        padding: 6% 12% 10% 10%;
+        }
+    }
+    p{
+        font-size:0.9rem;
+        padding-top:10%;
+    }
+}
+    @media @phone {
+    .middle-section{
+    flex-direction:column;
+    background-color:@navy-blue ;
+    }
+}
+
+
+
+/* ------feedback-box styling starts here */
+
+.feedback-box{
+    width: 80%;
+    height: 45Vh;
+    display: flex;
+    justify-content: space-between;
+    margin: 3% 5% 4% 10%;
+    background: @feedback-box-bg;
+    box-shadow: 30px 30px 80px rgba(55, 84, 170, 0.1), -30px -30px 80px #FFFFFF, inset 4px 4px 20px rgba(255, 255, 255, 0.5);
+    border-radius: 20px;
+
+        .image1{
+            width:15%;
+            margin:15% 0 30% 35%;
+        }
+        
+        @media @phone {
+            .image1{
+            margin:15% 0 30% 8%;
+            width:10%
+            }
+        }
+        
+        
+        .image2{
+            width: 20%;
+            margin: 0 0 10% 20%;
+        }
+        @media @phone {
+            .image2{
+            margin:15% 0 30% 0;
+            width:20%;
+            }
+        }
+
+    .text-box{
+        width: 75%;
+        margin: 10% 30% 0 0;
+        line-height:1.3em;
+        font-family: Fira Sans;
+        font-style: normal;
+        font-weight: normal;
+    }
+    @media @phone {
+        .text-box{
+        width:350%;
+        margin: 0 0 0 -20%;
+        font-size:0.8rem;
+        
+        }
+    }
+
+}  
+@media @phone {
+    .feedback-box{
+    height:30vh;
+    margin:2% auto;
+    }
+} 
+
+
+
+
+/* --bottom-box styling starts here */
+
+// bottom-box-text styling goes here--
+
+.bottom-box-text{
+    background-image: url("../img/potatopic.png");
+    background-size: cover;
+    height:50vh;
+
+}
+
+@media @phone {
+    .bottom-box-text{
+    margin:5% 0 2% 0;
+    padding-top:0.5%;
+    }
+}
+
+.bottom-box-text h2{
+    color:white;
+    margin-left: 12%;
+    padding-top: 6%;
+}
+@media @phone {
+    .bottom-box-text h2{
+    font-size:1.7rem;
+    padding-top:14%;
+    line-height:1.4 em;
+    color:rgb(252, 252, 252);
+    
+    }
+}
+
+.bottom-box-text p{
+    color:rgb(252, 252, 252);
+    line-height:1.35em;
+    padding:3% 16.5% 3% 16.5%;
+}
+@media @phone {
+    .bottom-box-text p{
+    line-height:1.2em;
+    color:rgb(252, 252, 252);
+    text-align:start;
+    font-size:0.8rem;
+    
+    margin-bottom:3%;
+    }
+}
+
+.bottom-box-text .input-div{
+        display:flex;
+        justify-content:flex-start;
+
+        input{
+            width: 18%;
+            margin-left:20%;
+            .input-style()
+          
+          }
+          @media @phone {
+            input{
+            display:block;
+            width:28%;
+            padding:0.6%;   
+            margin-left:16%; 
+            }
+        }
+        button{
+            .button-style();            
+        
+            }
+            @media @phone {
+                button{   
+                width:35%;
+                padding-left:4%;
+                margin-left:50%; 
+                border-radius: 0px 8px 8px 8px; 
+               
+                }
+            }
+        
+    
+}
+
+    // ---list-box styling starts here--
+
+.list-box{
+    display:flex;
+    justify-content: space-between;
+    margin: 6% 10% 5% 10%; 
+    line-height:1.3em;   
+}
+
+@media @phone {
+    .list-box{
+    line-height:1.3em;
+    font-size:0.8rem;
+    margin:1% 10% 5% 8%;   
+    }
+}
